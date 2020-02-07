@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Single Page Aplication</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/deps.min.css">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+
+<body>
+    <aside class="logo">
+        <a href="#/paginas/inicio.html" class="logo">
+            <img src="/assets/imgs/logo.png" alt="logo">
+        </a>
+    </aside>
+    <header class="cabecalho">
+        <input type="text" placeholder="Search...">
+        <button class="btn bg-blue white">Enter</button>
+        <button class="btn bg-red white">Register</button>
+    </header>
+    <aside class="menu-area">
+        <nav class="menu">
+            <a wm-link="#/paginas/inicio.html">
+                <i class="fa fa-home"></i> Home
+            </a>
+            <a wm-link="#/paginas/cursos.html">
+                <i class="fa fa-bars"></i> Products
+            </a>
+            <a wm-link="#/paginas/suporte.html">
+                <i class="fa fa-life-ring"></i> Support
+            </a>
+            <a wm-link="#/paginas/sobre.html">
+                <i class="fa fa-info-circle"></i> About
+            </a>
+        </nav>
+    </aside>
+    <main class="conteudo" wm-link-destino></main>
+    <footer class="rodape">
+        <span>
+            Developed with
+            <i class="fa fa-heart red"></i>
+            by
+            <strong>Wanderson Castro and Cod3r</strong>
+        </span>
+    </footer>
+    <script src="assets/js/app.min.js"></script>
+</body>
+
+</html>
